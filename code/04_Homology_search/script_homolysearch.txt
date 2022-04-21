@@ -1,0 +1,2 @@
+
+blastn -subject /home/syhe3484/Sybil/GenomeAnalysis/data/reference/E745/GCF_001750885.1_ASM175088v1_genomic.fna -query /home/syhe3484/Sybil/GenomeAnalysis/code/01_genome_assembly/genome_assembly/ass_canu01.contigs.fasta -out /home/syhe3484/Sybil/GenomeAnalysis/analyses/04_homology_search/results_homology_search.out -outfmt 7 
