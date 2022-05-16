@@ -1,0 +1,12 @@
+To recover a file that has been deleted and commited:
+
+To obtain the last commit: 
+git rev-list HEAD -n 1 -- ass_canu01.contigs.fasta
+
+
+6db8f7164a285b78acf67c813c1fe8a028f44f43
+
+To recover file before that commit: 
+
+git checkout 6db8f7164a285b78acf67c813c1fe8a028f44f43^ ass_canu01.report
+
